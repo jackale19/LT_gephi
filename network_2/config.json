@@ -10,7 +10,7 @@
   "text": {
     "more": "This is the part of the LT investigation. The graph shows links between administrators and groups. The colors mean clusters of most interconnected networks.",
     "intro": "This graph shows administrators linked with groups\nFake admins are in orange.",
-    "title": "LT_gephi_1"
+    "title": "LT_gephi_2"
   },
   "legend": {
     "edgeLabel": "Groups",
