@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "JK"
+  },
+  "text": {
+    "more": "This graph presents the network of Lithuanian FB groups\u0026pages and domains from which FB groups\u0026pages shared articles. The period of scraping is six months. For the sake of the clarity, only domains that were shared more than 100 times are included. The size of the node increase depending on the number of occurences (i.e. the more times a given group, page or domain occured in the database). Clustering means the algorithm processing the network and assigning nodes to the same cluster the more \"similar\" they are. In this case the nodes should be clustered depending on the number of mutual occurences (usually when FB groups\u0026pages share given domain a lot, they are in the same cluster). However, all links should be examined.",
+    "intro": "This graph presents the network of Lithuanian FB groups\u0026pages and domains from which FB groups\u0026pages shared articles.",
+    "title": "Network of LTU disinfo FB groups\u0026pages and domains"
+  },
+  "legend": {
+    "edgeLabel": "low (white) | high (red)",
+    "colorLabel": "modularity",
+    "nodeLabel": "FBgroups\u0026pages (color) | domains (blue)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
