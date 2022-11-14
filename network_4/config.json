@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#fff",
-      "labelThreshold": 4,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#ffffff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 12
+      "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.9,
-      "minEdgeSize": 0.3,
-      "minNodeSize": 4,
-      "maxNodeSize": 12
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
